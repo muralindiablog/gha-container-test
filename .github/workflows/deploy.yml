@@ -11,6 +11,8 @@ jobs:
   test:
     environment: dev
     runs-on: ubuntu-latest
+    container:
+      image: node:20
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb+srv
       MONGODB_CLUSTER_ADDRESS: clusterghamtest.ygzpuqj.mongodb.net
