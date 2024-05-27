@@ -1,4 +1,4 @@
-name: Deployment (Container)
+name: Deployment gha services container 
 on:
   push:
     branches:
